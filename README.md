@@ -1,7 +1,7 @@
 # COMP473-Project3
  this project will use a cloud-based system and a command-line based application where you send a string of words that will be parsed by backend processing and pull information from the cloud according to what you mentioned
 
-CLI:
+## CLI:
 -q "Query the database based on other arguments"
 -k "Keywords to save, or to query by if used with -q"
 -s "Date saved, automatically set to date when saving by default, or used to query by date saved with -q"
@@ -14,7 +14,7 @@ CLI:
           H : hour 0-23, or 1-12am/pm
           - : time range, ie, 11/12-11/15. Missing start date returns all items before end date, ie -11/13. Missing end date returns all items since start date, ie 12/1-.
 
-Each memory in the database is saved with
+## Each memory in the database is saved with
          - Required
            data : description of the item
            date-saved : the date the item was saved

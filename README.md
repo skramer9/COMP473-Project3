@@ -21,5 +21,7 @@
          - Optional
            time-start : beginning time of the event
            time-end : end time of the event
-          
-      
+
+## Users in the database are saved with
+    - UserID
+    - Password
